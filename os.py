@@ -11,12 +11,12 @@ class OS_Info:
     def __init__(self, root):
         self.root = root
         self.root.title("OS Info App")
-        self.root.geometry("700x600")  # Set initial size here
+        self.root.geometry("700x600") 
         self.create_gui()
         self.info = {}
 
     def create_gui(self):
-        self.root.update_idletasks()  # Update idle tasks to get the correct width and height
+        self.root.update_idletasks() 
 
         width = self.root.winfo_width()
         height = self.root.winfo_height()
